@@ -1,0 +1,46 @@
+<?php
+
+/**
+ * Fallback index.php for root directory
+ * 
+ * If .htaccess redirects don't work on your server, you can:
+ * 1. Rename this file to index.php in the root directory
+ * 2. This will redirect all requests to the public directory
+ * 
+ * Note: This is a fallback solution. The .htaccess method is preferred.
+ */
+
+// Redirect to public directory
+$publicPath = __DIR__ . '/public';
+
+// Get the current request URI (excluding the subdirectory)
+$requestUri = $_SERVER['REQUEST_URI'];
+$scriptName = $_SERVER['SCRIPT_NAME'];
+
+// Remove the subdirectory from the path if present
+// For /s_h/, we want to get just the path after /s_h/
+$basePath = dirname($scriptName);
+if ($basePath !== '/') {
+    $requestUri = substr($requestUri, strlen($basePath));
+}
+
+// Build the full path to public
+$targetPath = $publicPath . $requestUri;
+
+// If it's a directory, append index.php
+if (is_dir($targetPath) && substr($requestUri, -1) !== '/') {
+    $requestUri .= '/';
+    $targetPath .= '/';
+}
+
+// If the target is a directory, serve index.php from public
+if (is_dir($targetPath)) {
+    $targetPath = $publicPath . '/index.php';
+} elseif (!file_exists($targetPath) && !is_dir($targetPath)) {
+    // If file doesn't exist, route to Laravel's index.php
+    $targetPath = $publicPath . '/index.php';
+}
+
+// Include the public/index.php which will handle the request
+require $targetPath;
+

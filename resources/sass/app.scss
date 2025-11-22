@@ -1,0 +1,14 @@
+@use 'variables';
+
+// run for install "npm install bootstrap sass"
+
+@use 'bootstrap/scss/bootstrap';
+
+// mdi icons
+@import url('@mdi/font/css/materialdesignicons.css');
+
+// preloader
+@import url('../css/common/preloader.css');
+
+// CP font 
+@import url('../css/common/font.css');

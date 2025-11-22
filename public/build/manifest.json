@@ -1,0 +1,87 @@
+{
+  "node_modules/@fontsource/prompt/files/prompt-latin-400-normal.woff": {
+    "file": "assets/prompt-latin-400-normal-CxU4ec_r.woff",
+    "src": "node_modules/@fontsource/prompt/files/prompt-latin-400-normal.woff"
+  },
+  "node_modules/@fontsource/prompt/files/prompt-latin-400-normal.woff2": {
+    "file": "assets/prompt-latin-400-normal-BQ9zjSN8.woff2",
+    "src": "node_modules/@fontsource/prompt/files/prompt-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/prompt/files/prompt-latin-ext-400-normal.woff": {
+    "file": "assets/prompt-latin-ext-400-normal-1pHbN9uy.woff",
+    "src": "node_modules/@fontsource/prompt/files/prompt-latin-ext-400-normal.woff"
+  },
+  "node_modules/@fontsource/prompt/files/prompt-latin-ext-400-normal.woff2": {
+    "file": "assets/prompt-latin-ext-400-normal-DdSafGZ9.woff2",
+    "src": "node_modules/@fontsource/prompt/files/prompt-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/prompt/files/prompt-thai-400-normal.woff": {
+    "file": "assets/prompt-thai-400-normal-DJypnfr3.woff",
+    "src": "node_modules/@fontsource/prompt/files/prompt-thai-400-normal.woff"
+  },
+  "node_modules/@fontsource/prompt/files/prompt-thai-400-normal.woff2": {
+    "file": "assets/prompt-thai-400-normal-BrkKv8cO.woff2",
+    "src": "node_modules/@fontsource/prompt/files/prompt-thai-400-normal.woff2"
+  },
+  "node_modules/@fontsource/prompt/files/prompt-vietnamese-400-normal.woff": {
+    "file": "assets/prompt-vietnamese-400-normal-D4pLyeNK.woff",
+    "src": "node_modules/@fontsource/prompt/files/prompt-vietnamese-400-normal.woff"
+  },
+  "node_modules/@fontsource/prompt/files/prompt-vietnamese-400-normal.woff2": {
+    "file": "assets/prompt-vietnamese-400-normal-BCPzsgPT.woff2",
+    "src": "node_modules/@fontsource/prompt/files/prompt-vietnamese-400-normal.woff2"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot": {
+    "file": "assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf": {
+    "file": "assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff": {
+    "file": "assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2": {
+    "file": "assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-B0juwC4x.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/components/pages/dashboard.vue",
+      "resources/js/components/pages/about/index.vue",
+      "resources/js/components/pages/dashboard.vue"
+    ],
+    "css": [
+      "assets/app-C8R_NkW8.css"
+    ]
+  },
+  "resources/js/components/pages/about/index.vue": {
+    "file": "assets/index-CC_awHWS.js",
+    "name": "index",
+    "src": "resources/js/components/pages/about/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/components/pages/dashboard.vue": {
+    "file": "assets/dashboard-Bp_UhHGy.js",
+    "name": "dashboard",
+    "src": "resources/js/components/pages/dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-D0u7Droo.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}

@@ -1,0 +1,5 @@
+@import '@fontsource/prompt';
+
+* {
+    font-family: 'Prompt', sans-serif !important;
+}

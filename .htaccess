@@ -1,0 +1,69 @@
+# Protect sensitive files and directories
+<FilesMatch "^\.">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Protect composer files
+<FilesMatch "^(composer\.(json|lock)|package(-lock)?\.json)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Protect environment files
+<FilesMatch "^\.env">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Protect artisan file
+<Files artisan>
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</Files>
+
+# Prevent directory listing
+Options -Indexes
+
+# Redirect all requests to public directory
+# This works for both root and subdirectory deployments (e.g., /s_h/)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Don't rewrite if already accessing public directory directly
+    RewriteCond %{REQUEST_URI} ^/.*/public/
+    RewriteRule ^ - [L]
+    
+    # Don't rewrite if the request is for a file that exists in root
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+    
+    # Redirect all requests (including directories) to public directory
+    # This handles both root (/) and subdirectory (/s_h/) deployments
+    # Examples:
+    #   /s_h/ -> public/
+    #   /s_h/some-route -> public/some-route
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+

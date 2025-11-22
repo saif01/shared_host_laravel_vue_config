@@ -1,0 +1,19 @@
+# Keep public/build tracked so built assets can be uploaded to shared hosting
+/.phpunit.cache
+/.ftp-deploy-sync-state.json
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode

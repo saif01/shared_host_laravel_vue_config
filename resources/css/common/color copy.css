@@ -1,0 +1,342 @@
+:root {
+
+     /* Auth */
+    --btn_home_bg: #5631db;
+    --btn_home_text: white;
+
+    /* Auth */
+    --btn_auth_bg: #0ab43d;
+    --btn_auth_text: white;
+
+    /* Buttons */
+    --btn_add_bg: #0a95b4;
+    --btn_add_text: white;
+
+    --btn_edit_bg: #E6A814;
+    --btn_edit_text: white;
+
+    --btn_update_bg: #5783db;
+    --btn_update_text: white;
+
+    --btn_save_bg: #064E3B;
+    --btn_save_text: white;
+
+    --btn_delete_bg: #F62F63;
+    --btn_delete_text: white;
+
+    --btn_close_bg: #a7222b;
+    --btn_close_text: white;
+
+    --btn_active_bg: #33b249;
+    --btn_active_text: white;
+
+    --btn_inactive_bg: #E1444F;
+    --btn_inactive_text: white;
+
+    --btn_reject_bg: #ff4040;
+    --btn_reject_text: white;
+    
+
+
+
+
+
+    --btn_approve1_bg: #9D68FF;
+    --btn_approve1_text: white;
+
+    --btn_approve2_bg: #2E618B;
+    --btn_approve2_text: white;
+
+    --btn_details_bg: #334155;
+    --btn_details_text: white;
+
+    --btn_preview_image_bg: #DBC6BB;
+    --btn_preview_image_text: black;
+
+    --btn_preview_doc_bg: #67597A;
+    --btn_preview_doc_text: white;
+
+    --btn_excel_bg: #29a05a;
+    --btn_excel_text: white;
+
+    --btn_excel_import_bg: #C0CA33;
+    --btn_excel_import_text: white;
+    
+    --btn_excel_export_bg: #43A047;
+    --btn_excel_export_text: white;
+
+    --btn_download_bg: #253749;
+    --btn_download_text: white;
+
+    --btn_pdf_bg: #6D676E;
+    --btn_pdf_text: white;
+
+
+
+
+    /* project specific */
+    --btn_order_bg: #2DA229;
+    --btn_order_text: white;
+
+    --btn_payment_bg: #D691CE;
+    --btn_payment_text: white;
+
+    --btn_map_bg: #D81B60;
+    --btn_map_text: white;
+
+    --btn_role_bg: #DBC6BB;
+    --btn_role_text: black;
+
+    --btn_zone_bg: #ce4992;
+    --btn_zone_text: white;
+
+    --btn_makepayment_bg: #8497AC;
+    --btn_makepayment_text: white;
+
+    --btn_adjust_order_bg: #473D5A;
+    --btn_adjust_order_text: white;
+
+    --table_bottom_bg: #156658;
+    --table_bottom_text: white;
+
+    --table_right_bg: #3675e9e3;
+    --table_right_text: white;
+
+    --table_head_bg: #1976d2 ;
+    --table_head_text: white;
+
+
+    /* Buttons  Colors*/
+    --btn_add_color: #0D47A1;
+    --btn_edit_color: #FFD600;
+    --btn_delete_color: #FF1744;
+    --btn_active_color: #FF1744;
+
+
+
+}
+
+.btn_add_color {
+    color: var(--btn_add_color) !important;
+}
+.btn_edit_color {
+    color: var(--btn_edit_color) !important;
+}
+.btn_active_color {
+    color: var(--btn_active_color) !important;
+}
+.btn_delete_color {
+    color: var(--btn_delete_color) !important;
+}
+
+
+
+
+.btn_home {
+    background-color: var(--btn_home_bg) !important;
+    color: var(--btn_home_text) !important;
+}
+
+/* Auth  Color*/
+.btn_auth {
+    background-color: var(--btn_auth_bg) !important;
+    color: var(--btn_auth_text) !important;
+}
+
+/* All Btns Color*/
+.btn_add {
+    background-color: var(--btn_add_bg) !important;
+    color: var(--btn_add_text) !important;
+}
+
+.btn_edit {
+    background-color: var(--btn_edit_bg) !important;
+    color: var(--btn_edit_text) !important;
+}
+
+.btn_update {
+    background-color: var(--btn_update_bg) !important;
+    color: var(--btn_update_text) !important;
+}
+
+.btn_save {
+    background-color: var(--btn_save_bg) !important;
+    color: var(--btn_save_text) !important;
+}
+
+.btn_delete {
+    background-color: var(--btn_delete_bg) !important;
+    color: var(--btn_delete_text) !important;
+}
+
+.btn_close {
+    background-color: var(--btn_close_bg) !important;
+    color: var(--btn_close_text) !important;
+}
+
+.btn_active {
+    background-color: var(--btn_active_bg) !important;
+    color: var(--btn_active_text) !important;
+}
+
+.btn_inactive {
+    background-color: var(--btn_inactive_bg) !important;
+    color: var(--btn_inactive_text) !important;
+}
+
+.btn_reject {
+    background-color: var(--btn_reject_bg) !important;
+    color: var(--btn_reject_text) !important;
+}
+
+
+
+
+
+.btn_approve1 {
+    background-color: var(--btn_approve1_bg) !important;
+    color: var(--btn_approve1_text) !important;
+}
+
+.btn_approve2 {
+    background-color: var(--btn_approve2_bg) !important;
+    color: var(--btn_approve2_text) !important;
+}
+
+.btn_details {
+    background-color: var(--btn_details_bg) !important;
+    color: var(--btn_details_text) !important;
+}
+
+.btn_preview_image {
+    background-color: var(--btn_preview_image_bg) !important;
+    color: var(--btn_preview_image_text) !important;
+}
+
+.btn_preview_doc {
+    background-color: var(--btn_preview_doc_bg) !important;
+    color: var(--btn_preview_doc_text) !important;
+}
+
+.btn_pdf {
+    background-color: var(--btn_pdf_bg) !important;
+    color: var(--btn_pdf_text) !important;
+}
+
+.btn_excel {
+    background-color: var(--btn_excel_bg) !important;
+    color: var(--btn_excel_text) !important;
+}
+
+.btn_excel_import {
+    background-color: var(--btn_excel_import_bg) !important;
+    color: var(--btn_excel_import_text) !important;
+}
+
+.btn_excel_export {
+    background-color: var(--btn_excel_export_bg) !important;
+    color: var(--btn_excel_export_text) !important;
+}
+
+.btn_download {
+    background-color: var(--btn_download_bg) !important;
+    color: var(--btn_download_text) !important;
+}
+
+
+/* project specific */
+.btn_order {
+    background-color: var(--btn_order_bg) !important;
+    color: var(--btn_order_text) !important;
+}
+
+.btn_payment {
+    background-color: var(--btn_payment_bg) !important;
+    color: var(--btn_payment_text) !important;
+}
+
+.btn_mapview {
+    background-color: var(--btn_map_bg) !important;
+    color: var(--btn_map_text) !important;
+}
+
+.btn_role {
+    background-color: var(--btn_role_bg) !important;
+    color: var(--btn_role_text) !important;
+}
+
+.btn_zone {
+    background-color: var(--btn_zone_bg) !important;
+    color: var(--btn_zone_text) !important;
+}
+
+.btn_makepayment {
+    background-color: var(--btn_makepayment_bg) !important;
+    color: var(--btn_makepayment_text) !important;
+}
+
+.btn_adjust_order {
+    background-color: var(--btn_adjust_order_bg) !important;
+    color: var(--btn_adjust_order_text) !important;
+}
+
+.table_right {
+    background-color: var(--table_right_bg) !important;
+    color: var(--table_right_text) !important;
+}
+
+.table_bottom {
+    background-color: var(--table_bottom_bg) !important;
+    color: var(--table_bottom_text) !important;
+}
+
+.custom_table_head {
+    background-color: var(--table_head_bg) !important;
+    color: var(--table_head_text) !important;
+}
+
+.custom_table_head a{
+    color: var(--table_head_text) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dashboard card color */
+.dashboard_card1_bg1 {
+    background-color: #337ab7 !important;
+}
+
+.dashboard_card1_bg2 {
+    background: linear-gradient(180deg, #8ec1d6, #337ab7);
+}
+
+.dashboard_card2_bg1 {
+    background-color: #dd5174 !important;
+}
+
+.dashboard_card2_bg2 {
+    background: linear-gradient(180deg, #e68ea4, #dd5174);
+
+}
+
+.dashboard_card3_bg1 {
+    background-color: #90cd89 !important;
+}
+
+.dashboard_card3_bg2 {
+    background: linear-gradient(180deg, #b6ddb2, #90cd89);
+}

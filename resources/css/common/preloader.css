@@ -1,0 +1,41 @@
+.out_loader {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_spinner_loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #66BB6A;
+    border-radius: 50%;
+    animation: spinloader 2s linear infinite;
+}
+
+.img_spinner_loader {
+    height: 70px;
+    width: 70px;
+    animation: spinlogo 2s linear infinite;
+}
+
+
+@keyframes spinloader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinlogo {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
