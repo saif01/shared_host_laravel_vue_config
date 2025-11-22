@@ -18,7 +18,12 @@ export default defineConfig(({ mode }) => {
         return `/${trimmed}/`;
     };
 
-    const base = normalizeBase(env.ASSET_URL);
+    const withBuild = (value) => {
+        const normalized = normalizeBase(value);
+        return normalized.endsWith('build/') ? normalized : `${normalized}build/`;
+    };
+
+    const base = withBuild(env.ASSET_URL || '/');
 
     return {
         base,

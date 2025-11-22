@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <p class="h3 text-center">Laravel-12, Vue-3, Vuetify-3, VueRouter & Others Fresh Project</p>
+        <p class="h3 text-center">Laravel-12, Vue-3, Vuetify-3, VueRouter For Shared Hosting</p>
         <v-main class="ma-2">
             <router-view />
             <vue-progress-bar />

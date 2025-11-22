@@ -48,7 +48,7 @@
     "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2"
   },
   "resources/js/app.js": {
-    "file": "assets/app-B0juwC4x.js",
+    "file": "assets/app-B1xEmv4J.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -62,7 +62,7 @@
     ]
   },
   "resources/js/components/pages/about/index.vue": {
-    "file": "assets/index-CC_awHWS.js",
+    "file": "assets/index-XZYCyDRu.js",
     "name": "index",
     "src": "resources/js/components/pages/about/index.vue",
     "isDynamicEntry": true,
@@ -71,7 +71,7 @@
     ]
   },
   "resources/js/components/pages/dashboard.vue": {
-    "file": "assets/dashboard-Bp_UhHGy.js",
+    "file": "assets/dashboard-CShDyWzL.js",
     "name": "dashboard",
     "src": "resources/js/components/pages/dashboard.vue",
     "isDynamicEntry": true,
@@ -80,7 +80,7 @@
     ]
   },
   "resources/sass/app.scss": {
-    "file": "assets/app-D0u7Droo.css",
+    "file": "assets/app-B4kqO1AJ.css",
     "src": "resources/sass/app.scss",
     "isEntry": true
   }
