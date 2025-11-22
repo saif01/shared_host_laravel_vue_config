@@ -5,7 +5,7 @@
             <v-card class="mb-4" elevation="2">
                 <v-card-title class="text-h5 bg-primary text-white">
                     <v-icon start icon="mdi-view-dashboard"></v-icon>
-                    Dashboard Component
+                    Dashboard
                 </v-card-title>
 
                 <v-card-text class="pa-6">
@@ -24,34 +24,19 @@
                     <!-- Action Buttons -->
                     <v-row justify="center" class="mt-6">
                         <v-col cols="12" class="d-flex justify-center gap-3">
-                            <v-btn 
-                                size="x-large" 
-                                color="success" 
-                                variant="elevated"
-                                icon="mdi-plus-box"
-                                @click="increment"
-                                :disabled="result >= 100">
+                            <v-btn size="x-large" color="success" variant="elevated" icon="mdi-plus-box"
+                                @click="increment" :disabled="result >= 100">
                                 <v-icon>mdi-plus</v-icon>
                                 <v-tooltip activator="parent" location="top">Increment</v-tooltip>
                             </v-btn>
 
-                            <v-btn 
-                                size="x-large" 
-                                color="error" 
-                                variant="elevated"
-                                icon="mdi-minus-box"
-                                @click="decrement"
-                                :disabled="result <= -100">
+                            <v-btn size="x-large" color="error" variant="elevated" icon="mdi-minus-box"
+                                @click="decrement" :disabled="result <= -100">
                                 <v-icon>mdi-minus</v-icon>
                                 <v-tooltip activator="parent" location="top">Decrement</v-tooltip>
                             </v-btn>
 
-                            <v-btn 
-                                size="x-large" 
-                                color="warning" 
-                                variant="elevated"
-                                icon="mdi-refresh"
-                                @click="reset">
+                            <v-btn size="x-large" color="warning" variant="elevated" icon="mdi-refresh" @click="reset">
                                 <v-icon>mdi-refresh</v-icon>
                                 <v-tooltip activator="parent" location="top">Reset</v-tooltip>
                             </v-btn>
@@ -67,11 +52,7 @@
                     Quick Links
                 </v-card-title>
                 <v-card-text>
-                    <v-btn 
-                        color="primary" 
-                        variant="outlined"
-                        prepend-icon="mdi-information"
-                        :to="{ name: 'About' }">
+                    <v-btn color="primary" variant="outlined" prepend-icon="mdi-information" :to="{ name: 'About' }">
                         Go to About Page
                     </v-btn>
                 </v-card-text>

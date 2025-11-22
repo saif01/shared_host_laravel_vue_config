@@ -8,7 +8,7 @@ import {
 const routes = [
 
     {
-        path: '/',
+        path: '',
         component: () => import('./components/pages/dashboard.vue'),
         name: 'Dashboard',
         meta: {
