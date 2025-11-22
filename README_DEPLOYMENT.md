@@ -9,6 +9,7 @@
    APP_URL=http://127.0.0.1/s_h
    ASSET_URL=/s_h
    ```
+   *(No trailing slash; Vite will add `/build/` automatically.)*
 
 3. **Run setup commands:**
    ```bash

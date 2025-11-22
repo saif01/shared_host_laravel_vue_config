@@ -137,7 +137,7 @@ ASSET_URL=
 # For subdirectory deployment, include the subdirectory in APP_URL:
 # APP_URL=http://127.0.0.1/s_h
 # APP_URL=https://yourdomain.com/subfolder
-# And set ASSET_URL so Vite assets use the subdirectory:
+# And set ASSET_URL so Vite assets use the subdirectory (no trailing slash):
 # ASSET_URL=/s_h
 # ASSET_URL=https://yourdomain.com/subfolder
 

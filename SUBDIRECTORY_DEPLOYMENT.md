@@ -49,7 +49,7 @@ ASSET_URL=/subfolder
 ### Step 3: Build and Verify Assets
 
 The `.htaccess` files are already configured to route traffic correctly. For Vite assets:
-1. Set `ASSET_URL` to your subdirectory (as above)
+1. Set `ASSET_URL` to your subdirectory (as above, no trailing slash)
 2. Build your assets: `npm run build`
 3. Ensure `public/build` contains your compiled assets
 4. Laravel and Vite will emit asset URLs with the correct base path

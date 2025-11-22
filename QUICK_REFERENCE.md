@@ -54,7 +54,7 @@ ASSET_URL=/s_h
 # ASSET_URL=/subfolder
 ```
 
-**Important:** Always include the subdirectory path in `APP_URL` and `ASSET_URL` (no trailing slash).
+**Important:** Always include the subdirectory path in `APP_URL` and `ASSET_URL` (no trailing slash). Vite adds `/build/` automatically.
 
 ## Common File Paths
 
