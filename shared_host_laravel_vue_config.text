@@ -1,0 +1,4 @@
+git clone https://github.com/saif01/shared_host_laravel_vue_config.git
+
+
+git remote add origin https://github.com/saif01/shared_host_laravel_vue_config.git
